@@ -136,6 +136,7 @@ CREATE TABLE users (
 );
 
 Create Items Table:
+
 CREATE TABLE items (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
