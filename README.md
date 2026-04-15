@@ -56,33 +56,38 @@ This project follows a professional full-stack development structure and demonst
 
 mern-mysql-auth-crud
 
-Backend:
+⚙️ Backend
 Handles server-side logic, authentication, APIs, and database operations.
 
-config/         → DB connection setup (db.js)
-controllers/    → Business logic (auth, items)
-middleware/     → JWT authentication middleware
-routes/         → API endpoints (auth & items)
-.env            → Environment variables
-.env.example    → Sample env file
-server.js       → Backend entry point
-database.sql    → Database schema
-package.json    → Dependencies & scripts
+* config/ → Database connection setup (db.js)
+* controllers/ → Authentication & Item business logic
+* middleware/ → JWT authentication middleware
+* routes/ → API endpoints (Auth & Items)
+* .env → Environment variables (ignored)
+* .env.example → Environment template
+* server.js → Backend entry point
+* database.sql → MySQL schema
+* package.json → Backend dependencies & scripts
 
-Frontend:
-React-based UI for user interaction, authentication, and API communication.
+🎨 Frontend
+React-based user interface for authentication and dashboard interaction.
 
-public/         → Static assets
-src/
- ├── api/        → Axios API setup
- ├── components/ → Reusable UI components
- ├── context/    → Auth state management
- ├── pages/      → App screens (Login, Register, Dashboard, etc.)
- ├── App.jsx     → Main routing
- ├── main.jsx    → Entry point
- ├── index.css   → Global styles
-package.json    → Dependencies & scripts
-.gitignore      → Ignored files
+* public/ → Static assets
+* src/
+*  api/ → Axios configuration
+*  components/ → Reusable UI components
+*  context/ → Authentication state management
+*  pages/ → Application screens
+   Login
+   Register
+   Dashboard
+   Forgot Password
+   Reset Password
+* App.jsx → Main routing
+* main.jsx → React entry point
+* index.css → Global styling
+* package.json → Frontend dependencies
+* .gitignore → Ignored files
 
 ## ⚙️ Installation & Setup
 
