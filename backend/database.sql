@@ -1,5 +1,6 @@
 CREATE DATABASE mern_auth_db;
 USE mern_auth_db;
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
